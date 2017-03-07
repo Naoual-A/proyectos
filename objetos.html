@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title> Objetos en JavaScript </title>
+<script type="text/javascript">
+	var alumno = {nombre: "James", apellido:"Bones"};
+
+	function Profesor(nombre, apellido, edad){
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.edad = edad;
+	}
+
+	var profeMate = new Profesor("Juan", "Perez", 43);
+
+	var director = new Object();
+	director.nombre = "Pedro";
+	director.apellido = "Picapiedra";
+	director.edad = 44;
+
+	console.log(director);
+</script>
+</head>
+
+<body>
+
+</body>
+</html>
